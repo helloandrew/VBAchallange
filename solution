@@ -28,7 +28,7 @@ Sub stock()
         For i = 2 To lastrow
         
             totalvol = totalvol + ws.Cells(i, 7).Value
-            'start = ws.Cells(i, 3).Value
+            start = ws.Cells(i, 3).Value
                             
             If ws.Cells(i, 1) <> ws.Cells(i + 1, 1) Then
                                
